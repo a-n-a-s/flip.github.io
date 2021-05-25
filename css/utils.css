@@ -1,0 +1,30 @@
+.flex-all-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  /* box-sizing: border-box; */
+  width: 5vw;
+  height: 4vh;
+  padding: 1% 1%;
+  /* color: white; */
+  border-color: #2196f3;
+  color: dodgerblue;
+  /* background-color: var(--main-bg-color); */
+  border: 1px solid white;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-left: 3%;
+  font-weight: bolder;
+}
+.btn:hover {
+  background: #2196f3;
+  color: white;
+}
+.text-center {
+    text-align: center;
+}
+.my-1{
+    margin: 3% 0px;
+}
